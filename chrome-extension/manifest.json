@@ -1,0 +1,17 @@
+{
+  "name": "Placeholdifier",
+  "version": "0.1.0",
+  "description": "Turn any website into placeholders",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": ["activeTab", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {},
+  "manifest_version": 2
+}
