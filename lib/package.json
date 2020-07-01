@@ -1,0 +1,16 @@
+{
+  "name": "placeholdifier",
+  "version": "0.1.0",
+  "keywords": [
+    "placeholder",
+    "skeleton",
+    "html",
+    "css",
+    "style",
+    "mask",
+    "streaming"
+  ],
+  "homepage": "https://github.com/pomber/placeholdifier#readme",
+  "license": "MIT",
+  "repository": "pomber/placeholdifier"
+}
