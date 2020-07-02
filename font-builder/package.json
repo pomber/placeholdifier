@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "opentype.js": "^1.3.3",
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "parcel index.html"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules
+chrome-extension.zip
+dist
+.cache

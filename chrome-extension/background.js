@@ -6,7 +6,8 @@ function placeholdify() {
 
 chrome.browserAction.onClicked.addListener(placeholdify);
 
-const href = "https://unpkg.com/placeholdifier@0.1.0/placeholdifier.css";
+const href = chrome.runtime.getURL("lib/placeholdifier.css");
+//"https://unpkg.com/placeholdifier@0.1.0/placeholdifier.css";
 const linkId = "placeholdifier";
 const code = `
 const id = "${linkId}";

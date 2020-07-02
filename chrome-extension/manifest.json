@@ -1,7 +1,7 @@
 {
   "name": "Placeholdifier",
   "version": "0.1.0",
-  "description": "Turn any website into placeholders",
+  "description": "Turn your website into a live wireframe",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
@@ -13,5 +13,6 @@
     "persistent": false
   },
   "browser_action": {},
+  "web_accessible_resources": ["lib/placeholdifier.css", "lib/*"],
   "manifest_version": 2
 }
