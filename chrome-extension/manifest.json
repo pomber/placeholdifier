@@ -7,7 +7,7 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["tabs", "storage", "http://*/", "https://*/"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false

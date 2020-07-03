@@ -1,6 +1,8 @@
 function placeholdify() {
   chrome.tabs.executeScript({
     code: code,
+    allFrames: true,
+    frameId: 0,
   });
 }
 
@@ -10,7 +12,7 @@ const href = chrome.runtime.getURL("lib/placeholdifier.css");
 //"https://unpkg.com/placeholdifier@0.1.0/placeholdifier.css";
 const linkId = "placeholdifier";
 const code = `
-const id = "${linkId}";
+var id = "${linkId}";
 if (!document.getElementById(id)) {
   const head = document.getElementsByTagName("head")[0];
   const link = document.createElement("link");
