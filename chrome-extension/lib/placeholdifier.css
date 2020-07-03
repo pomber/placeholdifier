@@ -14,19 +14,22 @@
   font-style: normal;
 }
 
-* {
+.placeholdify,
+.placeholdify * {
   font-family: "Placeholdifier" !important;
   background-image: none !important;
 }
 
-pre,
-pre *,
-code,
-code * {
+pre.placeholdify,
+pre.placeholdify *,
+.placeholdify pre *,
+code.placeholdify,
+code.placeholdify *,
+.placeholdify code * {
   font-family: "Placeholdifier Monospace" !important;
 }
 
-img,
-video {
+.placeholdify img,
+.placeholdify video {
   filter: brightness(0%) contrast(0%) opacity(0.8);
 }
