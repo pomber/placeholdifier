@@ -1,7 +1,7 @@
 {
   "name": "Placeholdifier",
-  "version": "0.1.0",
-  "description": "Turn your website into a live wireframe",
+  "version": "0.2.0",
+  "description": "Turn any website into a live wireframe",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
