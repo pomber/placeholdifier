@@ -12,14 +12,14 @@ Turn any website into a live wireframe.
 
 <div align="center">
 <a href="https://chrome.google.com/webstore/detail/placeholdifier/iinkgkmmblamljaklibgclblomobdbha">
-<img alt="Placeholdifier Chrome Extension" src="https://user-images.githubusercontent.com/1911623/86538568-1817af80-becd-11ea-9ead-27356490e40d.png" width="720" />
+<img alt="Placeholdifier Chrome Extension" src="https://user-images.githubusercontent.com/1911623/86538742-35994900-bece-11ea-8286-2957a9634742.png" width="720" />
 </a>
 <br/>
 </div>
 
 ## NPM Package
 
-You can use it in your site by importing the CSS from unpkg:
+You can use it in your site by importing the CSS from unpkg and adding the `placeholdify` class somewhere:
 
 ```html
 <html>
