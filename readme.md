@@ -17,7 +17,7 @@ Turn any website into a live wireframe.
 <br/>
 </div>
 
-## NPM Package
+## npm Package
 
 You can use it in your site by importing the CSS from unpkg and adding the `placeholdify` class somewhere:
 
