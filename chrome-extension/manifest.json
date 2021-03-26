@@ -1,13 +1,13 @@
 {
   "name": "Placeholdifier",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Turn any website into a live wireframe",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "permissions": ["tabs", "http://*/", "https://*/"],
+  "permissions": ["http://*/", "https://*/"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false

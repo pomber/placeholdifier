@@ -1,7 +1,7 @@
 {
   "name": "placeholdifier",
   "description": "Turn HTML into a live wireframe",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "keywords": [
     "placeholder",
     "skeleton",
